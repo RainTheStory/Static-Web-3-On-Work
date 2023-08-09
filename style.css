@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+    height: 250vh;
+}
+
+body {
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+header {
+    display: flex;
+    position: fixed;
+    height: 8vh;
+    width: 100%;
+    justify-content: center;
+    background-position: bottom;
+    word-spacing: 80%;
+    background-image: url(https://getwallpapers.com/wallpaper/full/b/e/2/1420563-free-hacker-background-1920x1080-laptop.jpg);
+    z-index: 1000000;
+}
+
+header #logo {
+    position: relative;
+    color:brown;
+    right: 99%;
+}
+
+header #demo {
+    position: relative;
+    color:brown;
+    left: 99%;
+}
+
+
+header .navbar a{
+    position: relative;
+    top: 2vh;
+    text-decoration: none;
+}
+
+
+.cyber {
+    position: relative;
+    top: 8vh;
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://getwallpapers.com/wallpaper/full/b/e/2/1420563-free-hacker-background-1920x1080-laptop.jpg);
+
+}    
+
+.navbar {
+    height: auto;
+    width: auto;
+}
+
+#ctext {
+    position: relative;
+    font-size: 50px;
+    color: greenyellow;
+    top: 40%;
+    left: 50%;
+}
+
+.vul {
+    position: relative;
+    display: flex;
+    top: 8vh;
+    height: 65vh;
+    background-image: url(https://media.istockphoto.com/id/1181403907/vector/cyber-security-and-information-or-network-protection-future-technology-web-services-for.jpg?s=612x612&w=0&k=20&c=b6T8_cNms8RD-AAxFpkfvlBiQE8V6aay7X8_gMpfUXw=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#vtext {
+    height: 20vh;
+    width: 150vh;
+    position: relative;
+    color: black;
+    top: 10vh;
+    left: 100vh;
+    font-size: 30px;
+    font-family: 400px;
+    
+}
+
+#vtext2 {
+    height: 10vh;
+    width: 130vh;
+    position: relative;
+    color: black;
+    right: 8.5vh;
+    top: 30vh;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+#learn {
+    position: relative;
+    top: 50vh;
+    right: 50vh;
+    text-decoration: none;
+    width: 25vh;
+    height: 10vh;
+    background-color: green;
+    text-decoration: none;
+    padding-top: 3.5vh;
+    padding-left: 2vh;
+    color: black;
+    font-weight: 500;
+    border-radius: 5vh;
+    font-size: 20px;
+}
+
+.opinion {
+    position: relative;
+    width: 100%;
+    display: flex;
+    top: 8vh;
+    height: 40vh;
+    background-image: url(https://getwallpapers.com/wallpaper/full/a/6/7/1008552-amazing-deep-blue-background-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.op1{
+    position: absolute;
+    top: 20vh;
+    left: 45vh;
+    color: rgb(218, 178, 19)
+ }
+ 
+ 
+ .des1{
+    position: absolute;
+    top: 5vh;  
+    left: 30vh;
+ }
+ 
+ .des1 p{
+    width: 65vh;
+    height: 12vh;
+    color:white
+ }
+
+ .d1 {
+    position: absolute;
+    top: 27.5vh;
+    left: 10vh;
+    
+ }
+
+ #d1 {
+    position: absolute;
+    top: -2vh;
+    color: greenyellow
+ }
+ .des2 {
+     position: absolute;
+     left: 130vh;
+     top: 3vh;
+ }
+
+ .des2 p{
+    width: 65vh;
+    height:12vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    word-spacing: 30%;
+}
+
+.d2 {
+ position: absolute;
+ top: 30vh;
+}
+
+#d2 {
+ position: absolute;
+ left: -10vh;
+ color: greenyellow
+}
+
+.op2 {
+    position: absolute;
+    top: 20vh;
+    left: 137vh;
+    color: rgb(218, 178, 19)
+}
