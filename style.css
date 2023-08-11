@@ -40,6 +40,11 @@ header #logo {
     width: 20vh;
     top: 1.5vh;
 }
+@media screen and (max-width: 800px) {
+    header #logo {
+    font-size: clamp(16px, 18px, 20px);
+  }
+}
 
 #logo:before{
     content:"hacki'";
@@ -110,6 +115,12 @@ header #demo {
     font-size: 20px;
 }
 
+@media screen and (max-width: 800px) {
+  .navbar a {
+  font-size: clamp(10px, 12px, 14px);
+}
+}
+
 .navbar a:hover{
     color: red;
 }
@@ -139,7 +150,14 @@ header #demo {
     color: whitesmoke;
     top: 40%;
     left: 50%;
-}   
+} 
+@media screen and (max-width: 720px){
+  #ctext {
+  flex-direction: column;
+  height: fit-content !important;
+  font-size: clamp(26px, 28px, 30px);
+}
+}  
 .cyber h1{
     overflow: hidden;
     animation: 
@@ -165,6 +183,20 @@ header #demo {
     background-size: cover;
     background-position: center;
     transition: 5s all ease;
+}
+@media screen and (max-width: 600px){
+  .vul {
+  flex-direction: column;
+  height: fit-content !important;
+}
+}
+
+@media screen and (max-width: 600px){
+  #vtext {
+  width:100%;
+  font-size: clamp(16px, 18px, 20px);
+  height: fit-content !important;
+}
 }
 
 #vtext {
@@ -451,18 +483,18 @@ header #demo {
 }
 
 
-.amain {
-position: relative;
-height: 30vh;
-padding-left: 7.5vw;
-padding-right: 7.5vw;
-padding-top: 5vh;
-padding-bottom: 5vh;
-background-color: white;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-background-image: url(https://getwallpapers.com/wallpaper/full/a/6/7/1008552-amazing-deep-blue-background-1920x1080.jpg);
+  .amain {
+  position: relative;
+  height: 30vh;
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(https://getwallpapers.com/wallpaper/full/a/6/7/1008552-amazing-deep-blue-background-1920x1080.jpg);
 }
 
 
@@ -514,8 +546,6 @@ background-image: url(https://getwallpapers.com/wallpaper/full/a/6/7/1008552-ama
     width: 100%;
  }
 
-
-
  .boxinfo {
     display: flex;
     justify-content: space-around;
@@ -554,6 +584,7 @@ background-image: url(https://getwallpapers.com/wallpaper/full/a/6/7/1008552-ama
 
 .end {
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: space-between;
     background-color: #030637;
